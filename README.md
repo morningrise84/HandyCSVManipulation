@@ -7,12 +7,13 @@ A simple but handy script for small CSV manipulation: the script basically adds 
 
 - A .csv file is generated, ready to be loaded into a target system
 - An attribute which is not defined in the .csv file would normally get populated with a default value in the target system
+
 What if, occasionally, a different value would need to be passed from the .csv file?
  
 Available options: 
-A) When needed, manually edit the .csv file to add the column
-B) Apply the transformation somewhere else (ETL?) with a specific logic (when to add the column or not)
-C) When needed, simply have a script to run after the .csv generation <--- HERE WE ARE! :-D
+1) When needed, manually edit the .csv file to add the column
+2) Apply the transformation somewhere else (ETL?) with a specific logic (when to add the column or not)
+3) When needed, simply have a script to run after the .csv generation <--- HERE WE ARE! :-D
 
 
 ## Usage
